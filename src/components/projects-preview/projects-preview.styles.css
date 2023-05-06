@@ -1,0 +1,38 @@
+.projects-preview-wrapper{
+    background-color: coral;
+    width: 100%;
+}
+
+.projects-preview-outer{
+    background-color: darkkhaki;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.projects-preview-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-preview-card{
+    width: 30%;
+}
+
+.projects-preview-card-img-container{
+    width: 100%;
+    height: 100%;
+}
+
+.projects-preview-card-img-container img{
+    width: 100%;
+    height: auto;
+}
+
+#more-projects{
+    width: 20%;
+    height: 40px;
+    margin: 0 auto;
+}

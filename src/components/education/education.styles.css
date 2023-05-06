@@ -1,0 +1,28 @@
+.education-wrapper{
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-outer{
+    width: 30%;
+    background-color: cadetblue;
+    padding: 2em;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    
+}
+
+.education-inner{
+    display: flex;
+    background-color: brown;
+    gap: 1em;
+    align-items: center;
+}
+
+.interests-wrapper{
+    background-color: cadetblue;
+    padding: 2em;
+}

@@ -1,0 +1,15 @@
+.nav-wrapper{
+    background-color: aqua;
+    display: flex;
+    padding: 0.5em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    width: 50%;
+    background-color: coral;
+    justify-content: space-between;
+
+}

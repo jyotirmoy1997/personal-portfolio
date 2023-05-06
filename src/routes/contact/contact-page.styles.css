@@ -1,0 +1,12 @@
+.contact-page-wrapper{
+    width: 100%;
+}
+
+.contact-page-inner{
+    width: 80%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    margin: 0 auto;
+}
