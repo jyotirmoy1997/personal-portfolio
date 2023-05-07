@@ -1,0 +1,29 @@
+.other-contact-wrapper{
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    background-color: darkgreen;
+    gap: 10px;
+}
+
+.other-contact-inner{
+    display: flex;
+    width: 100%;
+    padding: 2em;
+    gap: 1em;
+    align-items: center;
+}
+
+.other-contact-inner-img-container{
+    width: 10%;
+}
+
+.other-contact-inner-img-container img{
+    width: 100%;
+    height: auto;
+}
+
+.oth-card{
+    display: flex;
+    flex-direction: column;
+}

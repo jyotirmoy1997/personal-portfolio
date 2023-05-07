@@ -2,6 +2,7 @@ import { Fragment } from "react"
 import { Outlet } from "react-router"
 import "./navigation.styles.css"
 import logo from "../../assets/logo.png"
+import { Link } from "react-router-dom"
 
 const Navigation = () => {
     return(
@@ -12,13 +13,14 @@ const Navigation = () => {
                     <img src={logo} alt="" height={50} width={50} />
                 </div>
                 <div className="nav-links">
-                    <span>Home</span>
-                    <span>Projects</span>
-                    <span>Certifications</span>
+                    <Link to="/">Home</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/certifications">Certifications</Link>
                     <span>Resume</span>
                 </div>
                 <div>
-                    Hire Me!
+                    <Link to="/contact">Hire Me!</Link>
+                    
                 </div>
             </div>
             <Outlet/>
