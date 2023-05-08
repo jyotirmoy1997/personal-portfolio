@@ -23,6 +23,12 @@
     font-weight: 500;
 }
 
+.nav-links a:hover{
+    color: #72E2AE;
+    text-decoration: underline;
+    text-underline-offset: 1em;
+}
+
 #hire-me-btn{
     background-color: #72E2AE;
     color: #0F172A;

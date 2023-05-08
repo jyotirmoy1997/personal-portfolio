@@ -4,6 +4,13 @@
     padding: 2em;
     color: white;
     border-radius: 8px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+    transition: all .2s ease-in-out;
+}
+
+.projects-card:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .projects-card-img-container{
