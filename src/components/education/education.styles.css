@@ -12,7 +12,11 @@
     display: flex;
     gap: 2em;
     flex-direction: column;
-    color: white;
+    color: #FAFAFA;
+}
+
+.education-outer h1{
+    text-align: center;
 }
 
 .education-inner{
@@ -24,6 +28,15 @@
     border-radius: 8px;
 }
 
+.education-cat h2{
+    color: #72E2AE;
+}
+
+.education-cat h4{
+    color: #EFEEEF;
+}
+
+
 .interests-wrapper{
     /* background-color: cadetblue; */
     padding: 2em;
@@ -31,8 +44,13 @@
     flex-direction: column;
     gap: 0.75em;
     width: 30%;
-    color: white;
+    color: #FAFAFA;
     justify-content: space-between;
+    
+}
+
+.interests-wrapper h1{
+    text-align: center;
 }
 
 .interests-inner{
@@ -41,9 +59,18 @@
     display: flex;
     gap: 2em;
     align-items: center;
+    border-radius: 8px;
 }
 
 .interests-inner img{
     height: 70px;
     width: 70px;
+}
+
+.edu-year{
+    background-color: #474955;
+    width: 30%;
+    text-align: center;
+    padding: 0.15em;
+    border-radius: 8px;
 }

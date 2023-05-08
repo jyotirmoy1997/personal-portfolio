@@ -3,8 +3,10 @@ import { Outlet } from "react-router"
 import "./navigation.styles.css"
 import logo from "../../assets/logo.png"
 import { Link } from "react-router-dom"
+import { useNavigate } from "react-router"
 
 const Navigation = () => {
+    const navigate = useNavigate()
     return(
         <Fragment>
             <div className="nav-wrapper">
@@ -18,7 +20,7 @@ const Navigation = () => {
                     <Link to="/certifications">Certifications</Link>
                 </div>
                 <div>
-                    <button id="hire-me-btn">Hire Me</button>
+                    <button id="hire-me-btn" onClick={() => navigate("/contact")}>Hire Me</button>
                 </div>
             </div>
             <Outlet/>

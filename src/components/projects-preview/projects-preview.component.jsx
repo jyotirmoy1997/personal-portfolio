@@ -22,7 +22,7 @@ const ProjectsPreview = () => {
     return(
         <div className="projects-preview-wrapper">
             <div className="projects-preview-outer">
-                <h1>My Projects</h1>
+                <h1>Projects</h1>
                 <div className="projects-preview-inner">
 
                     <div className="projects-preview-card">
@@ -70,6 +70,7 @@ const ProjectsPreview = () => {
                             <img src={htmlLogo} alt="" height={50} width={50} />
                             <img src={cssLogo} alt="" height={50} width={50} />
                             <img src={jsLogo} alt="" height={50} width={50} />
+                            <img src={pythonLogo} alt="" height={50} width={50} />
                             <img src={flaskLogo} alt="" height={50} width={50} />
                         </div>
                     </div>

@@ -16,7 +16,7 @@ import reduxLogo from "../../assets/redux.png"
 const TechStack = () => {
     return(
         <div className="tech-stack-outer">
-            <h1>My Tech Stack</h1>
+            <h1>Tech Stack</h1>
             <div className="tech-stack-inner">
                 <div className="tech-stack-container">
                     <div className="ts-img-container">

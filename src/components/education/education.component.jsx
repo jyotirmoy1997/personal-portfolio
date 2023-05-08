@@ -14,20 +14,18 @@ const Education = () => {
                 <div className="education-inner">
                     <img src={eduLogo} alt="" height={40} width={40} />
                     <div className="education-cat">
-                        <div>
-                            <h2>Master's in Computer Science, 2023</h2>
-                            <h4>University of North Bengal</h4>
-                        </div>
+                        <h2>Master's in Computer Science</h2>
+                        <div className="edu-year">2021 - 2023</div>
+                        <h4>University of North Bengal</h4>
                     </div>
                 </div>
 
                 <div className="education-inner">
                     <img src={eduLogo} alt="" height={40} width={40} />
                     <div className="education-cat">
-                        <div>
-                            <h2>Bachelor's in Computer Science, 2021</h2>
-                            <h4>University of North Bengal</h4>
-                        </div>
+                        <h2>Bachelor's in Computer Science</h2>
+                        <div className="edu-year">2018 - 2021</div>
+                        <h4>University of North Bengal</h4>
                     </div>
                 </div>
             </div>
