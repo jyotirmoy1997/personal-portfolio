@@ -22,7 +22,7 @@ const OtherContact = () => {
                     <img src={emaillogo} alt="" />
                 </div>
                 <div className="oth-card">
-                    <span>Contact on Phone</span>
+                    <span>Contact on Email</span>
                     <span>jyotirmoy.031997@gmail.com</span>
                 </div>
             </div>

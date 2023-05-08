@@ -1,13 +1,54 @@
 .landing-page-outer{
-    background-color: cadetblue;
+    width: 100%;
+    /* background-color: cadetblue; */
 }
 
 .landing-page-inner{
     width: 70%;
     margin: 0 auto;
-    background-color: chocolate;
+    /* background-color: chocolate; */
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1.5em;
+}
+
+.about-heading{
+    font-size: 20px;
+    color: #FAFAFA;
+}
+
+.about{
+    text-align: center;
+    color: #B9B8C5;
+}
+
+#dp-container{
+    width: 20%;
+}
+
+#dp-container img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #72E2AE;
+}
+
+.social-links{
+    /* background-color: chocolate; */
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links-icons{
+    width: 17%;
+    height: 100%;
+    /* height: 30px;
+    width: 30px; */
+}
+
+.social-links-icons img{
+    height: 100%;
+    width: 100%;
 }

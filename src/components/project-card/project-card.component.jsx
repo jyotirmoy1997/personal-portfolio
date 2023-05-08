@@ -1,6 +1,6 @@
 import "./project-card.styles.css"
 import { nanoid } from 'nanoid'
-import githubLogo from "../../assets/github.png"
+import githubLogo from "../../assets/github-white.png"
 
 const ProjectCard = ({details}) => {
     const {liveLink, gitHubLink, image, desc, heading, ts} = details

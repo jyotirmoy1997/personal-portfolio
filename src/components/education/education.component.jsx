@@ -1,11 +1,15 @@
 import "./education.styles.css"
 import eduLogo from "../../assets/graduation.png"
+import mlearning from "../../assets/images.jpg"
+import blockchain from "../../assets/blockchain.png"
+import dsa from "../../assets/dsa.jpg"
+import devops from "../../assets/logo-devops.png"
 
 const Education = () => {
     return(
         <div className="education-wrapper">
             <div className="education-outer">
-                <h2>Educational Qualification</h2>
+                <h1>Educational Qualification</h1>
 
                 <div className="education-inner">
                     <img src={eduLogo} alt="" height={40} width={40} />
@@ -28,21 +32,21 @@ const Education = () => {
                 </div>
             </div>
             <div className="interests-wrapper">
-                <h2>Other Interests</h2>
+                <h1>Other Interests</h1>
                 <div className="interests-inner">
-                    <img src="" alt="" />
+                    <img src={mlearning} alt="" />
                     <h3>Machine Learning & Deep Learning</h3>
                 </div>
                 <div className="interests-inner">
-                    <img src="" alt="" />
+                    <img src={blockchain} alt="" />
                     <h3>Cryptography & Blockchain</h3>
                 </div>
                 <div className="interests-inner">
-                    <img src="" alt="" />
+                    <img src={dsa} alt="" />
                     <h3>Data Structures and Algorithms</h3>
                 </div>
                 <div className="interests-inner">
-                    <img src="" alt="" />
+                    <img src={devops} alt="" />
                     <h3>Devops</h3>
                 </div>
             </div>

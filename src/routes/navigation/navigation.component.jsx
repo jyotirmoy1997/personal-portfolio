@@ -16,11 +16,9 @@ const Navigation = () => {
                     <Link to="/">Home</Link>
                     <Link to="/projects">Projects</Link>
                     <Link to="/certifications">Certifications</Link>
-                    <span>Resume</span>
                 </div>
                 <div>
-                    <Link to="/contact">Hire Me!</Link>
-                    
+                    <button id="hire-me-btn">Hire Me</button>
                 </div>
             </div>
             <Outlet/>

@@ -1,8 +1,8 @@
 .other-contact-wrapper{
     display: flex;
-    width: 45%;
+    width: 35%;
     flex-direction: column;
-    background-color: darkgreen;
+    justify-content: space-evenly;
     gap: 10px;
 }
 
@@ -12,6 +12,8 @@
     padding: 2em;
     gap: 1em;
     align-items: center;
+    background-color: #1B2436;
+    border-radius: 8px;
 }
 
 .other-contact-inner-img-container{

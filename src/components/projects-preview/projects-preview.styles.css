@@ -1,24 +1,35 @@
 .projects-preview-wrapper{
-    background-color: coral;
+    /* background-color: coral; */
     width: 100%;
 }
 
 .projects-preview-outer{
-    background-color: darkkhaki;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     padding: 2em;
+    color: white;
+    gap: 2em;
+}
+
+.projects-preview-outer h1{
+    text-align: center;
 }
 
 .projects-preview-inner{
     display: flex;
     justify-content: space-between;
+    gap: 2em;
 }
 
 .projects-preview-card{
     width: 30%;
+    background-color: #1B2436;
+    padding: 1.5em;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .projects-preview-card-img-container{
@@ -33,6 +44,15 @@
 
 #more-projects{
     width: 20%;
-    height: 40px;
+    height: 50px;
     margin: 0 auto;
+    background-color: #72E2AE;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.project-ts-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }

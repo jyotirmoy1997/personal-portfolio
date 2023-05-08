@@ -12,7 +12,7 @@ const ContactForm = () => {
                 <input className="el6" type="text" />
                 <label className="el7" htmlFor="">Message</label>
                 <textarea className="el8" type="text" />
-                <button>Drop a Message</button>
+                <button id="msg-drop">Drop a Message</button>
             </form>
         </div>
     )

@@ -1,29 +1,42 @@
 .tech-stack-outer{
-    background-color: aqua;
+    /* background-color: aqua; */
     width: 100%;
+    padding: 2em 0;
+}
+
+.tech-stack-outer h1{
+    text-align: center;
+    color: #FAFAFA;
 }
 
 .tech-stack-inner{
     width: 55%;
-    background-color: brown;
+    /* background-color: brown; */
     margin: 0 auto;
     display: flex;
+    gap: 2em;
     flex-direction: column;
+    
 }
 
 .tech-stack-container{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    gap: 2em;
 }
 
 .ts-img-container{
-    width: 20%;
+    width: 15%;
     height: 100%;
     padding: 3em;
+    /* border: 2px solid white; */
+    background-color: #1B2436;
+    border-radius: 10px;
 }
 
 .ts-img-container img{
     width: 100%;
     height: 100%;
+    /* border: 2px solid white; */
 }

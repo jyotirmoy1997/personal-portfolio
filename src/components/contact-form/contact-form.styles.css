@@ -1,5 +1,8 @@
 .contact-form-wrapper{
     width: 45%;
+    background-color: #1B2436;
+    padding: 2em;
+    border-radius: 8px;
 }
 
 .contact-form-wrapper form{
@@ -13,6 +16,7 @@
 
 .contact-form-wrapper form input{
     height: 30px;
+    background-color: #1C2335;
 }
 
 .el1{
@@ -40,4 +44,9 @@
     resize: none;
     grid-row: 8/12;
     grid-column: 1/-1;
+}
+
+#msg-drop{
+    background-color: #72E2AE;
+    font-size: 15px;
 }

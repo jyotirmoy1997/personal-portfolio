@@ -10,12 +10,13 @@ import pythonLogo from "../../assets/python.png"
 import javaLogo from "../../assets/java.png"
 import cppLogo from "../../assets/c++.png"
 import flaskLogo from "../../assets/flask.png"
+import reduxLogo from "../../assets/redux.png"
 
 
 const TechStack = () => {
     return(
         <div className="tech-stack-outer">
-            <h1>Tech</h1>
+            <h1>My Tech Stack</h1>
             <div className="tech-stack-inner">
                 <div className="tech-stack-container">
                     <div className="ts-img-container">
@@ -33,6 +34,9 @@ const TechStack = () => {
                 </div>
                 <div className="tech-stack-container">
                     <div className="ts-img-container">
+                        <img src={reduxLogo} alt="" />
+                    </div>
+                    <div className="ts-img-container">
                         <img src={htmlLogo} alt="" />
                     </div>
                     <div className="ts-img-container">
@@ -41,20 +45,22 @@ const TechStack = () => {
                     <div className="ts-img-container">
                         <img src={jsLogo} alt="" />
                     </div>
+                    
+                </div>
+                <div className="tech-stack-container">
                     <div className="ts-img-container">
                         <img src={pythonLogo} alt="" />
                     </div>
-                </div>
-                <div className="tech-stack-container">
+                    <div className="ts-img-container">
+                        <img src={flaskLogo} alt="" />
+                    </div>
                     <div className="ts-img-container">
                         <img src={javaLogo} alt="" />
                     </div>
                     <div className="ts-img-container">
                         <img src={cppLogo} alt="" />
                     </div>
-                    <div className="ts-img-container">
-                        <img src={flaskLogo} alt="" />
-                    </div>
+                    
                 </div>
             </div>
         </div>

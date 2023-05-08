@@ -1,6 +1,9 @@
 .projects-card{
     width: 40%;
-    background-color: darkcyan;
+    background-color: #1B2436;
+    padding: 2em;
+    color: white;
+    border-radius: 8px;
 }
 
 .projects-card-img-container{
@@ -22,4 +25,10 @@
 .projects-ts-container img{
     width: 10%;
     height: 100%;
+}
+
+.projects-card h3 {
+    display: flex;
+    gap: 1em;
+    align-items: center;
 }
