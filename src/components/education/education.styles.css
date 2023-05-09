@@ -19,6 +19,8 @@
     text-align: center;
 }
 
+
+
 .education-inner{
     display: flex;
     background-color: #1B2436;
@@ -33,8 +35,13 @@
     color: #72E2AE;
 }
 
+.education-cat a{
+    text-decoration: none;
+}
+
 .education-cat h4{
     color: #EFEEEF;
+    
 }
 
 

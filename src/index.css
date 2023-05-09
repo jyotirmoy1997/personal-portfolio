@@ -13,3 +13,7 @@ button{
 textarea{
     font-family: 'Radio Canada', sans-serif;
 }
+
+button:hover{
+    cursor: pointer;
+}

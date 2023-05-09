@@ -1,0 +1,10 @@
+.footer-wrapper{
+    color: #B6B5C2;
+    width: 100%;
+    padding: 1.5em 0;
+    /* border: 0.5px solid rgba(255, 255, 255, 0.1); */
+}
+
+.footer-wrapper p{
+    text-align: center;
+}

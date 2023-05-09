@@ -18,6 +18,14 @@
     color: #FAFAFA;
 }
 
+.about-heading-beg{
+    margin-right: 0.25em;
+}
+
+.type-writer-text{
+    color: #72E2AE;
+}
+
 .about{
     text-align: center;
     color: #B9B8C5;

@@ -16,6 +16,7 @@ import javaLogo from "../../assets/java.png"
 import cppLogo from "../../assets/c++.png"
 import flaskLogo from "../../assets/flask.png"
 
+import Footer from "../../components/footer/footer.component"
 
 import "./projects.styles.css"
 
@@ -69,6 +70,7 @@ const Projects = () => {
                     details.map((det) => <ProjectCard key={det.id} details={det} />)
                 }
             </div>
+            <Footer/>
         </div>
         
     )

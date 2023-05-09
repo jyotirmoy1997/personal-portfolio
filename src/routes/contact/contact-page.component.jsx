@@ -1,5 +1,6 @@
 import OtherContact from "../../components/other-contact/other-contact.component"
 import ContactForm from "../../components/contact-form/contact-form.component"
+import Footer from "../../components/footer/footer.component"
 import "./contact-page.styles.css"
 
 const ContactPage = () => {
@@ -10,6 +11,7 @@ const ContactPage = () => {
                 <OtherContact />
                 <ContactForm />
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -1,11 +1,23 @@
 import CertificateCard from "../../components/certificate-card/certificate-card.component"
-import bdata from "../../assets/bdata.jpg"
-import mlearning from "../../assets/mlearning.jpg"
+import bdata from "../../assets/certificates/bdata.jpg"
+import mlearning from "../../assets/certificates/mlearning.jpg"
+import bchain from "../../assets/certificates/bchain.jpg"
+
+import Footer from "../../components/footer/footer.component"
+
 import "./certifications.styles.css"
 
 const details = [
     {
         id : 1,
+        heading : "Blockchain and it's Applications",
+        image : bchain,
+        issuer : "NPTEL through IIT Kharagpur",
+        issueDate : "May 2023",
+        credentialID : "NPTEL23CS47S44640152"
+    },
+    {
+        id : 2,
         heading : "Big Data Computing",
         image : bdata,
         issuer : "NPTEL through IIT Patna",
@@ -13,7 +25,7 @@ const details = [
         credentialID : "NPTEL22CS65S43280127"
     },
     {
-        id : 2,
+        id : 3,
         heading : "Introduction to Machine Learning",
         image : mlearning,
         issuer : "NPTEL through IIT Kharagpur",
@@ -30,6 +42,7 @@ const Certifications = () => {
                     details.map(ct => <CertificateCard key={ct.id} details={ct} />) 
                 }
             </div>
+            <Footer />
         </div>
     )
 }

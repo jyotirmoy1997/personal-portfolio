@@ -2,6 +2,7 @@ import "./contact-form.styles.css"
 import { useState } from "react"
 import { useRef } from "react"
 import emailjs from '@emailjs/browser';
+import { validateEmail } from "../../utils/validator";
 
 const serviceID = import.meta.env.VITE_SERVICE_ID
 const templateID = import.meta.env.VITE_TEMPLATE_ID
@@ -19,6 +20,7 @@ const ContactForm = () => {
     })
 
     const [error, setError] = useState("")
+    const [emailError, setEmailError] = useState("")
 
     const nameRef = useRef()
     const emailRef = useRef()
@@ -29,15 +31,15 @@ const ContactForm = () => {
     const updateForm = (event) => {
         setFormData({...formData, [event.target.name] : event.target.value})
     }
-    console.log(serviceID)
+
     const onSubmitHandler = (event) => {
         event.preventDefault()
         if(formData.name === ""){
             setError(errMsg)
             nameRef.current.classList.add("err-class")
         }
-        if(formData.email === ""){
-            setError(errMsg)
+        if(!validateEmail(formData.email)){
+            setEmailError("Please Enter a valid Email Address")
             emailRef.current.classList.add("err-class")
         }
         if(formData.subject === ""){
@@ -78,7 +80,7 @@ const ContactForm = () => {
                 />
                 <label className="el3" htmlFor="" >
                     <span>Email</span>
-                    <span className="err-msg">{error}</span> 
+                    <span className="err-msg">{emailError}</span> 
                 </label>
                 <input 
                     className="el4" 

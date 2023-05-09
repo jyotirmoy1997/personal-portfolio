@@ -21,7 +21,7 @@
     outline: none;
     border: 0.5px solid rgba(255, 255, 255, 0.1);
     color: #BFBECB;
-    
+    border-radius: 5px;
 }
 
 .contact-form-wrapper form label{
@@ -33,6 +33,7 @@
     outline: none;
     border: 0.5px solid rgba(255, 255, 255, 0.1);
     color: #BFBECB;
+    border-radius: 5px;
 }
 
 .el1{
@@ -69,6 +70,7 @@
 #msg-drop{
     background-color: #72E2AE;
     font-size: 15px;
+    border-radius: 5px;
 }
 
 .err-msg{
