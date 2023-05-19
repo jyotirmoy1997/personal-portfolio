@@ -10,10 +10,10 @@ const Navigation = () => {
     return(
         <Fragment>
             <div className="nav-wrapper">
-                <div>
+                <Link to="/">
                     {/* Add Signature Here */}
-                    <img src={logo} alt="" height={50} width={50} />
-                </div>
+                    <img src={logo} alt="" height={100} width={164} />
+                </Link>
                 <div className="nav-links">
                     <Link to="/">Home</Link>
                     <Link to="/projects">Projects</Link>
