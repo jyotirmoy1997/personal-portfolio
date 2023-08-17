@@ -81,3 +81,11 @@
 .err-class{
     background-color: #262435;
 }
+
+@media(max-width: 950px){
+    .contact-form-wrapper{
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+}

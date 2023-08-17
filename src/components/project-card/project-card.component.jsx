@@ -4,7 +4,6 @@ import githubLogo from "../../assets/github-white.png"
 
 const ProjectCard = ({details}) => {
     const {liveLink, gitHubLink, image, desc, heading, ts} = details
-    console.log(liveLink)
     return(
             <div className="projects-card">
                 <a className="projects-card-img-container" 
