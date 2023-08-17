@@ -1,0 +1,85 @@
+.education-wrapper{
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.education-outer{
+    width: 35%;
+    /* background-color: cadetblue; */
+    padding: 2em;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    color: #FAFAFA;
+}
+
+.education-outer h1{
+    text-align: center;
+}
+
+
+
+.education-inner{
+    display: flex;
+    background-color: #1B2436;
+    gap: 1em;
+    align-items: center;
+    padding: 1.5em;
+    border-radius: 8px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.education-cat h2{
+    color: #72E2AE;
+}
+
+.education-cat a{
+    text-decoration: none;
+}
+
+.education-cat h4{
+    color: #EFEEEF;
+    
+}
+
+
+.interests-wrapper{
+    /* background-color: cadetblue; */
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    width: 30%;
+    color: #FAFAFA;
+    justify-content: space-between;
+    
+}
+
+.interests-wrapper h1{
+    text-align: center;
+}
+
+.interests-inner{
+    background-color: #1B2436;
+    padding: 1.5em;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    border-radius: 8px;
+    border: 0.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.interests-inner img{
+    height: 70px;
+    width: 70px;
+}
+
+.edu-year{
+    background-color: #474955;
+    width: 30%;
+    text-align: center;
+    padding: 0.15em;
+    border-radius: 8px;
+}

@@ -1,0 +1,17 @@
+.contact-page-wrapper{
+    width: 100%;
+    color: #FAFAFA;
+}
+
+.contact-page-wrapper h1{
+    text-align: center;
+}
+
+.contact-page-inner{
+    width: 80%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    margin: 0 auto;
+}

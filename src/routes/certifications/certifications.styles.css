@@ -1,0 +1,14 @@
+.certifications-wrapper{
+    width: 100%;
+    color: #EFEEEF;
+}
+
+.certifications-inner{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* background-color: darkcyan; */
+    gap: 2em;
+    padding: 3em;
+}

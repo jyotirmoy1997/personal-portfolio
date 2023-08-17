@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
+
+body{
+    margin: 0;
+    background-color: #0F1B2D;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+button{
+    font-family: 'Radio Canada', sans-serif;
+}
+
+textarea{
+    font-family: 'Radio Canada', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
