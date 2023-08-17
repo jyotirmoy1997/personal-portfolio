@@ -5,11 +5,23 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 3em;
+    /* width: 100%; */
+    
+}
+
+
+.nav-links-container{
+    display: flex;
+    width: 60%;
+    /* background-color: burlywood; */
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
 .nav-links{
     display: flex;
-    width: 25%;
+    width: 40%;
     /* background-color: coral; */
     justify-content: space-between;
     
@@ -44,4 +56,64 @@
 #hire-me-btn:hover{
     cursor: pointer;
     background-color: white;
+}
+
+.nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+    display: none;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+
+@media (max-width : 850px){
+    .nav-btn {
+        display: block;
+		visibility: visible;
+		opacity: 1;
+	}
+    .nav-links-container{
+        position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+        background-color: #0F172A;
+		/* background-color: white; */
+		transition: 0.25s;
+        z-index: 9999;
+    }
+
+    .responsive-nav {
+		transform: translateY(100vh);
+	}
+    .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+    .nav-links{
+        width: 100%;
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+    }
+    .nav-wrapper{
+        display: flex;
+        justify-content: space-between;
+        /* width: 100%; */
+        /* padding: 0; */
+        margin: 0;
+    }
+    
 }
