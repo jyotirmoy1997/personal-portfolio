@@ -21,7 +21,7 @@ const TechStack = () => {
         <div className="tech-stack-outer">
             <h1>Tech Stack</h1>
             <div className="tech-stack-inner">
-                <div className="tech-stack-container">
+                {/* <div className="tech-stack-container"> */}
                     <div className="ts-img-container"
                         data-tooltip-id="react-tooltip" 
                         data-tooltip-content="ReactJS" 
@@ -50,8 +50,8 @@ const TechStack = () => {
                         <Tooltip id="mongo-tooltip" />
                         <img src={mongodbLogo} alt="" />
                     </div>
-                </div>
-                <div className="tech-stack-container">
+                {/* </div> */}
+                {/* <div className="tech-stack-container"> */}
                     <div className="ts-img-container"
                     data-tooltip-id="redux-tooltip" 
                     data-tooltip-content="React Redux" 
@@ -81,8 +81,8 @@ const TechStack = () => {
                         <img src={jsLogo} alt="" />
                     </div>
                     
-                </div>
-                <div className="tech-stack-container">
+                {/* </div>
+                <div className="tech-stack-container"> */}
                     <div className="ts-img-container"
                     data-tooltip-id="python-tooltip" 
                     data-tooltip-content="TypeScript" 
@@ -112,8 +112,8 @@ const TechStack = () => {
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" />
                     </div>
                     
-                </div>
-                <div className="tech-stack-container">
+                {/* </div>
+                <div className="tech-stack-container"> */}
                     <div className="ts-img-container"
                     data-tooltip-id="python-tooltip" 
                     data-tooltip-content="Python" 
@@ -143,7 +143,7 @@ const TechStack = () => {
                         <img src={cppLogo} alt="" />
                     </div>
                     
-                </div>
+                {/* </div> */}
             </div>
         </div>
     )

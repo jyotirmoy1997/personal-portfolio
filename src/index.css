@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap');
 
+html{
+    width: 100%;
+}
+
 body{
     margin: 0;
     background-color: #0F1B2D;
     font-family: 'Radio Canada', sans-serif;
+    width: 100%;
 }
 
 button{

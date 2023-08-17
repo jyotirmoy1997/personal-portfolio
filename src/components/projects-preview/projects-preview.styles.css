@@ -67,3 +67,22 @@
 .projects-preview-card h5{
     text-align: center;
 }
+
+@media(max-width : 1250px){
+    .projects-preview-inner{
+        flex-direction: column;
+    }
+    .projects-preview-card{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #more-projects{
+        width: 40%;
+        height: 50px;
+        margin: 0 auto;
+        background-color: #72E2AE;
+        font-size: 17px;
+        border-radius: 5px;
+    }
+    
+}
